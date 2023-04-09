@@ -8,7 +8,7 @@ public class Conexion {
         try {
             conection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mensajes_app", "root", "");
             if(conection != null){
-                System.out.println("Conexion exitosa");
+                System.out.println("Conexion exitosa a mensajes_app mysql");
             }
         } catch (SQLException e) {
             System.out.println(e);
